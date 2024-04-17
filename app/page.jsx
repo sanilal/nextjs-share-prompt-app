@@ -1,3 +1,5 @@
+import Feed from "@components/Feed";
+
 export default function Home() {
   return (
     <section className="w-full flex-center flex-col">
@@ -8,7 +10,7 @@ export default function Home() {
         <p className="desc text-center">
             It is an experiment project to create and share  prompts that can be used as starting points for writing or generating ideas. 
         </p>
-        {/* Feed */}
+        <Feed />
 
     </section>
   )
